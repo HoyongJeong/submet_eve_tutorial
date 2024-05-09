@@ -13,7 +13,6 @@ void EventVisExample()
 		double charge;
 	};
 	chMap map[160];
-	TTree* tp;
 	for ( Int_t i = 0; i < 160; i ++ )
 	{
 		map[i] . iL   = i % 2;
